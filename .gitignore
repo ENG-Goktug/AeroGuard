@@ -1,0 +1,23 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment (Burası çok önemli, .venv klasörünü yüklememeli)
+.venv/
+venv/
+env/
+ENV/
+
+# PyCharm / IDE settings (Kendi bilgisayar ayarların gitmemeli)
+.idea/
+.vscode/
+*.swp
+
+# Streamlit
+.streamlit/secrets.toml
+# .streamlit/config.toml # (Eğer özel config yapmadıysan bu kapalı kalsın)
+
+# OS files
+.DS_Store
+Thumbs.db
